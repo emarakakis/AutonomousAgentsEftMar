@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1707996632",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\unity\\AutonomouLab\\MLvenv1\\Scripts\\mlagents-learn --run-id =moreMove3 --resume",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1707996644"
+    },
+    "total": 12.1862305,
+    "count": 1,
+    "self": 0.014262400000001563,
+    "children": {
+        "run_training.setup": {
+            "total": 0.045796599999999854,
+            "count": 1,
+            "self": 0.045796599999999854
+        },
+        "TrainerController.start_learning": {
+            "total": 12.1261715,
+            "count": 1,
+            "self": 8.549999999907243e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 12.0052088,
+                    "count": 1,
+                    "self": 12.0052088
+                },
+                "TrainerController._save_models": {
+                    "total": 0.12087720000000068,
+                    "count": 1,
+                    "self": 0.007587100000000291,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.1132901000000004,
+                            "count": 1,
+                            "self": 0.1132901000000004
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

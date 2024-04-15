@@ -1,0 +1,29 @@
+{
+    "Agent Controller": {
+        "checkpoints": [
+            {
+                "steps": 356563,
+                "file_path": "results\\=fcku\\Agent Controller\\Agent Controller-356563.onnx",
+                "reward": 2.0,
+                "creation_time": 1707997399.569774,
+                "auxillary_file_paths": [
+                    "results\\=fcku\\Agent Controller\\Agent Controller-356563.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 356563,
+            "file_path": "results\\=fcku\\Agent Controller.onnx",
+            "reward": 2.0,
+            "creation_time": 1707997399.569774,
+            "auxillary_file_paths": [
+                "results\\=fcku\\Agent Controller\\Agent Controller-356563.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cpu"
+    }
+}

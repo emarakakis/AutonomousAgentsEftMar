@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1707993591",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\unity\\AutonomouLab\\MLvenv1\\Scripts\\mlagents-learn --run-id =new3",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1707993600"
+    },
+    "total": 8.7885178,
+    "count": 1,
+    "self": 0.0027767999999976922,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05433250000000012,
+            "count": 1,
+            "self": 0.05433250000000012
+        },
+        "TrainerController.start_learning": {
+            "total": 8.7314085,
+            "count": 1,
+            "self": 0.0001039999999985497,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 8.731290000000001,
+                    "count": 1,
+                    "self": 8.731290000000001
+                },
+                "TrainerController._save_models": {
+                    "total": 1.4500000000694513e-05,
+                    "count": 1,
+                    "self": 1.4500000000694513e-05
+                }
+            }
+        }
+    }
+}
